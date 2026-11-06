@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'CursedTimer';
+    src: url('fonts/CursedTimerUlil-Aznm.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    margin: 0;
+    
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+    padding: 68px 82px;
+    width: 575px;
+    margin: 20px auto 0;
+}
+h3{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin: 0px;
+    
+}
+.reusalt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.counter{
+    background-color: black;
+    color: brown;
+    font-size: 90px;
+    width: 155px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 25px 0px;
+    padding-top: 20px;
+    font-family: 'CursedTimer', sans-serif;
+    /* padding: 0px 20px; */
+    
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 155px;
+}
+
+.btn{
+    background-color: #1B244A;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    padding: 10px 8px;
+    font-size: 18px;
+    font-family: 'CursedTimer', sans-serif;
+}
+#reset-counter{
+    display: block;
+    width: 740px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1B244A;
+    color: #9AABCB; 
+    border: 2px solid #9AABCB;
+    font-size: 30px;
+    text-shadow: 0 0 3px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+}
+#reset-counter:hover {
+    background-color: #9AABCB;
+    color: #1B244A; /* عكس الألوان عند المرور بالفرشاة */
+    box-shadow: 0 0 20px black;
+}
